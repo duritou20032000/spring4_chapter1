@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+        <!--<bean id="person" class="com.example.spring.domain.Person">-->
+        <!--</bean>-->
+
+        <!--<bean id="person1" class="com.example.spring.domain.Person1">-->
+            <!--<property name="name" value=" spring ID 2  get Bean"></property>-->
+        <!--</bean>-->
+
+        <!--<bean  class="com.example.spring.domain.Person2">-->
+            <!--<property name="name" value=" spring type 2 getBean "></property>-->
+        <!--</bean>-->
+
+        <!--<bean  id="person3" class="com.example.spring.domain.Person3">-->
+            <!--<constructor-arg name="name" value="counstructor 2 "></constructor-arg>-->
+            <!--<constructor-arg name="age" value="23 "></constructor-arg>-->
+        <!--</bean>-->
+
+        <!--<bean  id="person4" class="com.example.spring.domain.Person3">-->
+            <!--<property name="person" ref="person1"></property>-->
+        <!--</bean>-->
+
+</beans>
